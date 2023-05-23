@@ -3,22 +3,25 @@
 using namespace std;
 class a{
     public:
-    void fun(){
-        cout<<"My name is farzan"<<endl;
+    void name(){
+        cout<<" my name is alok"<<endl;
     }
 };
 class b{
     public:
-    void fun(){
-        cout<<"my name is alok"<<endl;
+    
+    void name(){
+        cout<<" my name is anushka "<<endl;
     }
 };
 class c:public a,public b{
     
 };
 int main(){
-    c obj;
-    // obj.fun()
-    obj. a::fun();
-    obj.b::fun();
+    c object;
+    
+    // object.name;
+    object.a::name();
+    object.b::name();
+    
 }
